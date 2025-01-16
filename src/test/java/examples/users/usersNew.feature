@@ -3,9 +3,10 @@ Feature: sample karate test script
 
   Background:
     * url 'https://jsonplaceholder.typicode.com'
-@Run1
+
+@Run2
   Scenario: get all users and then get the first user by id
-   * print  "This is Scenario 1"
+    * print  "This is Scenario 3"
     Given path 'users'
     When method get
     Then status 200
@@ -16,9 +17,9 @@ Feature: sample karate test script
     When method get
     Then status 200
 
-  @Run1
+  @Run2
   Scenario: create a user and then get it by id
-    * print  "This is Scenario 2"
+    * print  "This is Scenario 4"
     * def user =
       """
       {
