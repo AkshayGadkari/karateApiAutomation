@@ -1,4 +1,7 @@
-### problem Statement : To merge Cucucmber reports of two runs  OR to get the merged Cucumber Report OR to get the Merged Karate Report  ###
+### problem Statement : 
+To merge Cucucmber reports of two runs  **OR **
+to get the merged Cucumber Report **OR**
+to get the Merged Karate Report  ###
 
 Using CLI with help of Maven commands OR Jenkins
 
